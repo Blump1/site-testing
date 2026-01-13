@@ -1,1 +1,1 @@
-console.log("Harmony Music Center site loaded");
+console.log("site loaded");
