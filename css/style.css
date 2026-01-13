@@ -1,37 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f7f7f7;
-    color: #333;
+    background: #0f0f0f;
+    color: #eaeaea;
 }
 
 header {
-    background: #1e1e1e;
-    color: white;
-    padding: 20px;
+    background: #000;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 nav a {
-    color: white;
-    margin-right: 15px;
+    color: #eaeaea;
+    margin-left: 20px;
     text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #4a90e2;
 }
 
 .hero {
-    background: #4a90e2;
-    color: white;
-    padding: 60px 20px;
+    padding: 100px 20px;
     text-align: center;
+    background: linear-gradient(135deg, #1c1c1c, #111);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #bbb;
 }
 
 .content {
-    padding: 40px 20px;
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.content h2, h3 {
+    color: #4a90e2;
 }
 
 footer {
-    background: #1e1e1e;
-    color: white;
+    background: #000;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    color: #777;
 }
